@@ -1,0 +1,76 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+*.spec
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.bot_assignment_env/
+bot_assignment_env/
+Scripts/
+Lib/
+pyvenv.cfg
+
+# ================================
+# FastAPI / Uvicorn / Runtime
+# ================================
+*.db
+app.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+instance/
+
+# ================================
+# OS Files
+# ================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# IDE / Project Files
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# ================================
+# pytest Cache / Coverage
+# ================================
+.pytest_cache/
+.cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# ================================
+# Build / Distribution
+# ================================
+build/
+dist/
+*.egg
+*.whl
+
+# ================================
+# Environment Variables
+# ================================
+.env
+.env.local
+.env.*.backup
+
+# ================================
+# GitHub Workflow Cache
+# ================================
+.github/workflows/*.lock
